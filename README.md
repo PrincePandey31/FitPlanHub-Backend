@@ -2,6 +2,10 @@
 
 FitPlanHub is a RESTful backend API built using **Django** and **Django REST Framework**.  
 It enables certified trainers to create fitness plans and users to subscribe, follow trainers, and receive AI-based diet recommendations.
+The system uses a rule-based AI engine to suggest diet plans based on:
+Fitness plan goal (Fat Loss, Muscle Gain, Beginner, etc.)
+Plan duration
+This architecture is designed to be easily extendable to a Machine Learning model in the future.
 
 # Features
 
