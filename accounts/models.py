@@ -11,3 +11,7 @@ class User(AbstractUser):
     def is_trainer(self):
         return self.role == 'trainer'
 
+class Follow(models.Model):
+    user = models.ForeignKey(User, related_name='follows', on_delete=models.CASCADE)
+    trainer = models.ForeignKey(User, related_name='followers', on_delete=models.CASCADE)
+

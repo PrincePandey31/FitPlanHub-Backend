@@ -28,6 +28,11 @@ urlpatterns = [
 
     path('api/accounts/', include('accounts.urls')),
     path('api/plans/', include('plans.urls')),
-    path('api/', include('subscriptions.urls')), 
+    path('api/', include('subscriptions.urls')),
+    path('api/', include('diet.urls')),
+    path('api/', include('diet.urls')),
+    path('api/', include('diet.urls')),
+
+ 
 ]
 

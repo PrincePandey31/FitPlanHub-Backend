@@ -42,6 +42,8 @@ INSTALLED_APPS = [
     'accounts',
     'plans',
     'subscriptions',
+    'diet',
+
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
